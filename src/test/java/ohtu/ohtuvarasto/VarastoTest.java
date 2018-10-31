@@ -133,7 +133,7 @@ public class VarastoTest {
     public void toStringTest() {
         Varasto varasto6 = new Varasto(10, 5);
         
-        assertEquals("saldo = 6.0, vielä tilaa 5.0", varasto6.toString());
+        assertEquals("saldo = 5.0, vielä tilaa 5.0", varasto6.toString());
     }
     
 }
