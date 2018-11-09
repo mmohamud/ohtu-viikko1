@@ -5,6 +5,7 @@ import java.util.ArrayList;
 
 public class Kirjanpito {
     private static Kirjanpito instance;
+    private ArrayList<String> tapahtumat;
     
     public static Kirjanpito getInstance() {
         if ( instance==null) {
@@ -14,7 +15,7 @@ public class Kirjanpito {
         return instance;
     }
     
-    private ArrayList<String> tapahtumat;
+    
 
     private Kirjanpito() {
         tapahtumat = new ArrayList<String>();
